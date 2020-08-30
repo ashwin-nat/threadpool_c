@@ -60,7 +60,7 @@ tpool_t* tpool_create (int count);
  * @param tpool         The handle to the tpool
  * @param job_fn        The function pointer for the job to be performed
  * @param arg           The (optional) arg for job_fn
- * @param destructor    The (optional) destructor for job_fn
+ * @param destructor    The (optional) destructor for arg
  * @param opt           The options for job to be performed
  * @return int          Returns 0 on success, -1 on failure
  */
